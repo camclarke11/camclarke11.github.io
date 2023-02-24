@@ -826,8 +826,12 @@ font-size: 0.9rem;
     }
     
     /* Responsive Classes */
-    @media (max-width: 767px) {
-    .portfolio .projects {
+@media (max-width: 767px) {
+.portfolio .projects {
     grid-template-columns: repeat(1, 1fr);
     }
+    }
+    }
+}   
+}
     }
