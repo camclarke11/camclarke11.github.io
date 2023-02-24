@@ -6,8 +6,8 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: 'Gloock', sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     color: #333;
   }
@@ -835,3 +835,56 @@ font-size: 0.9rem;
 }   
 }
     }
+/* Light mode styles */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  font-size: 1.2rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+header.dark-mode {
+  background-color: #222;
+}
+
+button.dark-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+main.dark-mode {
+  background-color: #444;
+}
