@@ -6,20 +6,20 @@ baseurl: "" # Leave empty for GitHub Pages
 url: "https://camclarke11.github.io"
 
 # Theme settings
-theme: jekyll-theme-cayman
-show_downloads: false
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Social links (uncomment and add your links)
+# Social links
 github_username: camclarke11
 # linkedin_username: your-linkedin
 # twitter_username: your-twitter
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Navigation
 header_pages:
@@ -37,13 +37,22 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "default"
       author: "Cam Clarke"
-      
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Theme customization
+show_downloads: false
+google_analytics: # Add if you want analytics
+logo: # Add a logo path here if you want one
+
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-  - README.md 
+  - README.md

@@ -5,8 +5,6 @@ date: 2023-12-23
 categories: [introduction, ai-policy]
 ---
 
-# Welcome to My AI & Policy Blog
-
 As we stand at the frontier of artificial intelligence advancement, it's crucial to consider both the technological possibilities and their implications for society. This blog will serve as a platform to explore these intersections and contribute to the ongoing dialogue about AI governance.
 
 ## Why AI Policy Matters
