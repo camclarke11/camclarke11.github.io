@@ -1,1 +1,49 @@
- 
+title: "Cam's AI & Policy Blog"
+description: "Documenting my journey in AI and policy"
+author: "Cam Clarke"
+email: "" # Add your email if you want
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://camclarke11.github.io"
+
+# Theme settings
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Social links (uncomment and add your links)
+github_username: camclarke11
+# linkedin_username: your-linkedin
+# twitter_username: your-twitter
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - about.md
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Cam Clarke"
+      
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md 
