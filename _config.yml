@@ -6,9 +6,8 @@ baseurl: "" # Leave empty for GitHub Pages
 url: "https://camclarke11.github.io"
 
 # Theme settings
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -20,6 +19,7 @@ github_username: camclarke11
 
 # Build settings
 markdown: kramdown
+show_excerpts: true
 
 # Navigation
 header_pages:
@@ -37,17 +37,16 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
       author: "Cam Clarke"
   - scope:
       path: ""
     values:
       layout: "default"
 
-# Theme customization
-show_downloads: false
-google_analytics: # Add if you want analytics
-logo: # Add a logo path here if you want one
+# Minima theme settings
+minima:
+  date_format: "%B %-d, %Y"
 
 # Exclude from processing
 exclude:
